@@ -98,7 +98,9 @@
     "vite": "^4.0.3",
     "vue-tsc": "^1.8.8"
   },
-  "commitizen": {
-    "path": "node_modules/cz-customizable"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
   }
 }
