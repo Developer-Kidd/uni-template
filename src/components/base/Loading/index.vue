@@ -16,7 +16,6 @@
 </template>
 <script lang="ts" setup name="loading"></script>
 <style lang="scss" scoped>
-@import "@/styles/base/_vars.scss";
 @import "@/styles/base/_extend.scss";
 .mask-container {
   position: absolute;
@@ -24,7 +23,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: $mask-color;
+  background-color: $uni-bg-color-mask;
   .loading-wrapper {
     width: 4em;
     height: 4em;
